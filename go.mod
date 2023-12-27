@@ -21,6 +21,7 @@ require (
 	github.com/strangelove-ventures/packet-forward-middleware/v7 v7.0.0-20230523193151-73dea436e53f
 	github.com/stretchr/testify v1.8.4
 	github.com/terra-money/alliance v0.2.2
+	github.com/classic-terra/core/v2 v2.5.0
 )
 
 require (
@@ -205,4 +206,7 @@ replace (
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.9.0
 	// Downgraded to avoid bugs in following commits which caused simulations to fail.
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
+
+	// Use terra core 2.5.0
+	github.com/classic-terra/core/v2 => github.com/terra-money/core/v2 v2.5.0
 )
